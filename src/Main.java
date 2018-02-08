@@ -23,4 +23,8 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello,Lab3!");
     }
+    static int wordcounting(String link) {
+        int num = urlToString(link).length();
+        return num;
+    }
 }
